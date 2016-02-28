@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+
+<!-- This is the response from the QB Rating service via the REST call:
+http://localhost:88/QBRatingService.svc/calc?f=NFL&c=10&a=16&y=212&t=3&i=1&fmt=XML -->
+
+<QBRating xmlns:i="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://schemas.datacontract.org/2004/07/Barkes.Football"
+          i:type="NFLQBRating">
+  <Attempts>16</Attempts>
+  <CompletionPercentage>62.5</CompletionPercentage>
+  <Completions>10</Completions>
+  <InterceptionPercentage>6.25</InterceptionPercentage>
+  <Interceptions>1</Interceptions>
+  <Rating>119.8</Rating>
+  <TDs>3</TDs>
+  <TouchdownPercentage>18.75</TouchdownPercentage>
+  <Yards>212</Yards>
+  <YardsPerAttempt>13.25</YardsPerAttempt>
+</QBRating>
+
