@@ -1,5 +1,5 @@
 ﻿/* IQBRatingService.cs ------------------------------------------------------
- *
+this is a test for Pr Build status *
  * Informatix Football Apps
  * QB Passer Rating WCF Service
  *
